@@ -1,0 +1,44 @@
+
+
+li {
+    display: flex;
+    background-color: rgb(142, 174, 222);;
+    justify-content: space-between;
+    gap: 20%;
+    border: solid 2px rgb(216, 216, 216);
+    -webkit-box-shadow: 5px 5px 15px 3px rgba(0,0,0,0.54); 
+    box-shadow: 5px 5px 15px 3px rgba(0,0,0,0.54);
+    -webkit-box-shadow: inset 0px 3px 15px -1px rgba(0,0,0,0.62); 
+box-shadow: inset 0px 3px 15px -1px rgba(0,0,0,0.62);
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    gap : 20px;
+    margin-left: 5%;
+}
+
+.info {
+    margin-right: 5%;
+    width: 50%;
+    text-align: end;
+}
+
+h2 {
+    color: white;
+    
+}
+
+h3 {
+    color: rgb(29, 29, 29);
+    font-size: 25px;
+}
+
+h4 {
+    color: rgb(79, 79, 79);
+}
+
+img {
+    width: 50px;
+}

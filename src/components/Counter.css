@@ -1,0 +1,36 @@
+.counter-div {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    background-color: rgb(26, 41, 69);
+    width: 100px;
+    height: 50%;
+    border: 6px solid rgb(92, 133, 168);
+    border-radius: 1000px;
+    color: wheat;
+    font-size: 30px;
+    position: fixed;
+    top:50%;
+    transform: translate(0, -50%);
+    margin-left: 20px;
+}
+
+.counter-div button {
+    border-radius: 1000px;
+    border: wheat solid 2px;
+    width: 75px;
+    height: 75px;
+    color : wheat;
+    font-size: 50px;
+}
+
+#minus-button {
+    background-color: rgb(121, 34, 57);
+}
+
+#plus-button {
+    background-color: rgb(34, 121, 75);
+}
